@@ -23,27 +23,53 @@ public class Order {
     public String getId() { return id; }
     public Address getAddress() { return address; }
     public List<Line> getLines() { return List.copyOf(lines); }
-    public void addLine(Product product, int quantity) { lines.add(new Line(product, quantity)); }
-    public long getItemsTotal() { return lines.stream().mapToLong(Line::getTotal).reduce(0L, Math::addExact); }
+    
+    public void addLine(Product product, int quantity) { 
+        lines.add(new Line(product, quantity)); 
+    }
+
+    public long getItemsTotal() { 
+        return lines.stream()
+            .mapToLong(Line::getTotal)
+            .reduce(0L, Math::addExact); 
+    }
+
     public Receipt createReceipt() { return new Receipt(); }
 
     public static class Line {
         private final Product product;
         private final int quantity;
+
         public Line(Product product, int quantity) {
-            if (quantity <= 0) throw new IllegalArgumentException("Jumlah harus positif");
+            if (quantity <= 0) 
+                throw new IllegalArgumentException("Jumlah harus positif");
+
             this.product = Objects.requireNonNull(product); this.quantity = quantity;
         }
+
         public Product getProduct() { return product; }
         public int getQuantity() { return quantity; }
-        public long getTotal() { return Math.multiplyExact(product.getFinalPrice(), quantity); }
+
+        public long getTotal() { 
+            return Math.multiplyExact(product.getFinalPrice(), quantity); 
+        }
     }
-    
+
     public class Receipt {
         public String toText() {
+
             StringBuilder text = new StringBuilder("Pesanan " + id + "\n");
-            for (Line line : lines) text.append(line.product.getInfo()).append(" x ").append(line.quantity).append("\n");
-            return text.append("Total barang: Rp").append(getItemsTotal()).append("\nTujuan: ").append(address).toString();
+            
+            for (Line line : lines) 
+                text.append(line.product.getInfo())
+                    .append(" x ")
+                    .append(line.quantity)
+                    .append("\n");
+
+            return text.append("Total barang: Rp")
+                .append(getItemsTotal())
+                .append("\nTujuan: ")
+                .append(address).toString();
         }
     }
 }

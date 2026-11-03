@@ -6,14 +6,15 @@ public final class Address {
     private final String postalCode;
 
     public Address(String street, String city, String postalCode) {
-        if (isNullOrWhitespace(street) 
-            && isNullOrWhitespace(city) 
-            && isNullOrWhitespace(postalCode)) 
+        if (street == null 
+            || street.isBlank() 
+            || city == null 
+            || city.isBlank()
+            || postalCode == null 
+            || postalCode.isBlank()) 
             throw new IllegalArgumentException("Alamat tidak lengkap");
 
-        this.street = street; 
-        this.city = city; 
-        this.postalCode = postalCode;
+        this.street = street; this.city = city; this.postalCode = postalCode;
     }
 
     public String getStreet() { return street; }
@@ -22,12 +23,4 @@ public final class Address {
 
     @Override 
     public String toString() { return street + ", " + city + " " + postalCode; }
-
-    private boolean isNullOrWhitespace(String value) {
-
-        if (value == null || value.isBlank())
-            return false;
-
-        return true;
-    }
 }
