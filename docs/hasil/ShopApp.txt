@@ -1,0 +1,23 @@
+== Katalog ==
+[Fisik] Kopi Arabika Gayo 250g - Rp85000
+[Fisik] Rendang Kemasan 250g - Rp120000
+[Digital] E-book Resep Kue Nusantara - Rp45000
+== Ringkasan ==
+Subtotal: Rp250000
+Berat kiriman: 700 g
+Total Reguler: Rp260000
+Total Ekspres: Rp268000
+== Pembayaran ==
+E-Wallet DompetKu berhasil? true
+Sisa saldo: Rp40000
+Transfer Bank Nagari berhasil? true
+Kartu Kredit (Siti Rahma) berhasil? true
+Cicilan 3 bulan: Rp89334
+Refund e-wallet berhasil? true
+Saldo setelah refund: Rp85000
+Pesanan ORD-0001
+[Fisik] Kopi Arabika Gayo 250g - Rp85000 x 2
+[Digital] E-book Resep Kue Nusantara - Rp45000 x 1
+Total barang: Rp215000
+Tujuan: Jl. Moh Hatta. 10, Padang 25121
+Voucher Promo Hari Ini untuk e-book berhasil? true

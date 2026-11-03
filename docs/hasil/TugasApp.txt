@@ -1,0 +1,14 @@
+Tugas oleh Althaf (2511533018)
+E-Wallet DompetKu: Rp268000 (admin Rp0)
+Transfer Bank Nagari: Rp272000 (admin Rp4000)
+Kartu Kredit (Siti Rahma): Rp276040 (admin Rp8040)
+Kebijakan kartu kredit: Refund maksimal 7 hari; Cicilan maksimal 12 bulan
+Kebijakan e-wallet: Refund maksimal 7 hari
+[EMAIL to siti@example.com] Pesanan ORD-0001 sudah dikirim dengan kurir Ekspres. Nomor resi akan muncul di aplikasi dalam 1x24 jam. Terima kasih telah berbelanja produk UMKM Sumatera Barat di toko kami! Silakan hubungi layanan pelanggan jika membutuhkan bantuan terkait pesanan Anda.
+[SMS to 081234567890] Pesanan ORD-0001 sudah dikirim dengan kurir Ekspres. Nomor resi akan muncul di aplikasi dalam 1x24 jam. Terima kasi...
+[WA to 081234567890] [Toko UMKM] Pesanan ORD-0001 sudah dikirim dengan kurir Ekspres. Nomor resi akan muncul di aplikasi dalam 1x24 jam. Terima kasih telah berbelanja produk UMKM Sumatera Barat di toko kami! Silakan hubungi layanan pelanggan jika membutuhkan bantuan terkait pesanan Anda.
+[LOG] Siti Rahma: Pesanan ORD-0001 sudah dikirim dengan kurir Ekspres. Nomor resi akan muncul di aplikasi dalam 1x24 jam. Terima kasih telah berbelanja produk UMKM Sumatera Barat di toko kami! Silakan hubungi layanan pelanggan jika membutuhkan bantuan terkait pesanan Anda.
+Terkirim ke Siti Rahma lewat 4 kanal
+[WA to +6281298765432] [Toko UMKM] Pesanan ORD-0001 sudah dikirim dengan kurir Ekspres. Nomor resi akan muncul di aplikasi dalam 1x24 jam. Terima kasih telah berbelanja produk UMKM Sumatera Barat di toko kami! Silakan hubungi layanan pelanggan jika membutuhkan bantuan terkait pesanan Anda.
+[LOG] Budi: Pesanan ORD-0001 sudah dikirim dengan kurir Ekspres. Nomor resi akan muncul di aplikasi dalam 1x24 jam. Terima kasih telah berbelanja produk UMKM Sumatera Barat di toko kami! Silakan hubungi layanan pelanggan jika membutuhkan bantuan terkait pesanan Anda.
+Terkirim ke Budi lewat 2 kanal

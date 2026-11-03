@@ -1,0 +1,6 @@
+Total cart: 170000
+Ongkir Ekspres 2 kg: 36000
+ORD-1 -> Jl. Sudirman 10, Padang 25121
+ORD-2 -> Jl. Sudirman 10, Bukittinggi 26111
+Harga flash sale: 70000
+true | sisa Rp70000
