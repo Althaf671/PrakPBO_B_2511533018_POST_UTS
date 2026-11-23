@@ -1,0 +1,46 @@
+=== S1 ORD-01 ===
+--- INVOICE ORD-01 ---
+Kirim ke : Sari, Medan
+Kopi Gayo 250g x1 = Rp85.000
+Subtotal : Rp85.000
+Diskon   : Rp0
+Ongkir   : Rp10.000
+Total    : Rp95.000
+Bayar    : E-Wallet
+[SMS] Sari: pesanan ORD-01 sudah dibayar (Rp95.000)
+=== S2 ORD-02 ===
+--- INVOICE ORD-02 ---
+Kirim ke : Budi, Padang
+Kopi Gayo 250g x1 = Rp85.000
+Rendang Kemasan 500g x1 = Rp120.000
+Subtotal : Rp205.000
+Diskon   : Rp0
+Ongkir   : Rp10.000
+Total    : Rp215.000
+Bayar    : E-Wallet
+[SMS] Budi: pesanan ORD-02 sudah dibayar (Rp215.000)
+=== S3 ORD-03 ===
+--- INVOICE ORD-03 ---
+Kirim ke : Wati, Bandung
+Tas Anyaman Pandan x1 = Rp150.000
+Kopi Gayo 250g x2 = Rp170.000
+Subtotal : Rp320.000
+Diskon   : Rp16.000
+Ongkir   : Rp20.000
+Total    : Rp324.000
+Bayar    : Kartu Kredit
+[SMS] Wati: pesanan ORD-03 sudah dibayar (Rp324.000)
+=== S4 ORD-04 ===
+--- INVOICE ORD-04 ---
+Kirim ke : Andi, Makassar
+Rendang Kemasan 500g x2 = Rp240.000
+Subtotal : Rp240.000
+Diskon   : Rp12.000
+Ongkir   : Rp10.000
+Total    : Rp238.000
+Bayar    : E-Wallet
+[SMS] Andi: pesanan ORD-04 sudah dibayar (Rp238.000)
+=== S5 ORD-05 ===
+[INPUT] ORD-05: Metode bayar tidak dikenal: QRIS
+=== S6 ORD-06 ===
+[ERROR] ORD-06: Produk digital tidak punya berat
